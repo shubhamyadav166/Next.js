@@ -4,7 +4,7 @@ import React from 'react'
   console.log(await params);
   
   return (
-    <div>Comment Page</div>
+    <div>Comment Page {}</div>
   )
 }
 

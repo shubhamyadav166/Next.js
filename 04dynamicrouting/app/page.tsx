@@ -1,8 +1,8 @@
-import { log } from "console";
 
 
-export default async function Home({searchParams,params}) {
-console.log("searchParams:",await searchParams);
+
+export default async function Home({params}) {
+
 console.log("params: ",await params);
 
   return (
