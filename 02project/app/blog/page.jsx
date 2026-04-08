@@ -21,6 +21,11 @@ export default function Page(){
 return(
     <>
     <div>
+        <nav className='mt-5 bg-blue-300 text-black'>
+            <Link href={'/'}>Logo</Link>
+            <Link href={'/'}>Home</Link>
+            <Link href='/blog'>Blogs</Link>
+        </nav>
         <h1>Post of this Blog page</h1>
 
         <div >
