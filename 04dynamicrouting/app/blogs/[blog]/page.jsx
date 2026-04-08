@@ -1,10 +1,18 @@
-import React from 'react'
+export async function generateMetadata({params}){
+  const {blog}=await params
+  console.log(await params);
+  
+  return {
+    title:`${blog}`
+  }
+  
+  
+}
 
-async function page({params}) {
+export default async function page({params}) {
     const {blog}=await params
   return (
     <div>daynamic page : {blog}</div>
   )
 }
 
-export default page

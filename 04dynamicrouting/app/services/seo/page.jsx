@@ -1,4 +1,7 @@
-
+export const metadata = {
+  title: 'SEO ',
+  description: '...',
+}
 
 const Seopage = () => {
   return (
