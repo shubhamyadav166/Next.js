@@ -17,9 +17,9 @@ export default function RootLayout({
     <html lang="en">
       
       <body className="">
-      <h1 className="bg-amber-600 top-0 left-0 w-full">Header</h1> 
+      <h1 className="bg-teal-600 top-0 left-0 w-full">Header</h1> 
        <main>{children}</main> 
-        <footer className="bg-teal-600 bottom-0 w-full text-white">Footer</footer>
+        <footer className="bg-red-900 bottom-0 w-full text-white">Footer</footer>
         </body>
       
     </html>
