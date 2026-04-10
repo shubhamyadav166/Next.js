@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+
 import HeaderComponent from './_components/header'
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
  title: {
     default: "Create Next App",
     template:"%s | Shubham Tech"
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 
 export default async function RootLayout({children}){
-console.log(await children.props);
+
 
   return (
     <html
