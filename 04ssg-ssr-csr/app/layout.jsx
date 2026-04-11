@@ -19,7 +19,7 @@ export default async function RootLayout({children}){
       lang="en">
 
       <body className="min-h-full flex flex-col">
-        {<HeaderComponent/>}
+        
         {children}
         
         </body>
