@@ -1,6 +1,13 @@
 
+//   // Force fully make page dynamic
+// export const dynamic="force-dynamic"
 
-export default function page() {
+
+export default async function page({searchParams}) {
+ const search=await searchParams
+  console.log(search);
+
+  
   console.log("This is service page");
   
   return (
