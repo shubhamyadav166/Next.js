@@ -1,5 +1,5 @@
 
-'use client'
+
 export default function page() {
   console.log("This is service page");
   

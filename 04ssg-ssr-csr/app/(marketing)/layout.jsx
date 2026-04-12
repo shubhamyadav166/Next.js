@@ -5,6 +5,7 @@ export default function Rootlayout({ children }) {
         <>
         <div>{<Header/>}</div>
             <div>{children}</div>
+            <div>{}</div>
         </>
     )
 }
