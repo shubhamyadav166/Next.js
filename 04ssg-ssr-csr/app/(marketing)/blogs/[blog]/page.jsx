@@ -46,9 +46,9 @@ export default async function page({ params }) {
         <h1>This is Blog no:{blog} </h1>
         <Suspense fallback={<Loading children={"Views"}/>}> <Views /> </Suspense>
 
-        <Suspense fallback={<div>Loading Comments....</div>}> <Comments /></Suspense>
+        <Suspense fallback={<Loading>Comments.....</Loading>}> <Comments /></Suspense>
 
-        <Suspense fallback={<div>Loading Likes....</div>}><Like /></Suspense>
+        <Suspense fallback={<Loading> Likes....</LoadingS>}><Like /></Suspense>
       </div>
 
     </div>

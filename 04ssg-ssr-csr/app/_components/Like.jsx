@@ -1,7 +1,7 @@
 
 
 export default async function Like() {
-  await new Promise((resolve)=>setTimeout(resolve,7000))
+  await new Promise((resolve)=>setTimeout(resolve,5000))
   return (
     <div>1K Like</div>
   )
