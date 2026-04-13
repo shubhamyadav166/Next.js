@@ -1,9 +1,9 @@
-'use client'
 
-import { useState } from "react";
+
+import Button from "../_components/Button";
 
 export default function page() {
-  const [count,setCount]=useState(0)
+
   //  if(window==undefined){
   //   console.log(window);
   //  }
@@ -11,28 +11,21 @@ export default function page() {
   // console.log(localStorage);
   // }
 
-  if (typeof localStorage !== "undefined") {
-    console.log(localStorage);
-  }
+//   if (typeof localStorage !== "undefined") {
+//     console.log(localStorage);
+//   }
 
-  if (typeof window !== "undefined") {
-    console.log(window);
-  }
-  console.log("Like Component");
-  console.log("Follow Page");
-//Button Click count Increase
-const handleClick=()=>{
-  setCount(count+1)
-}
+//   if (typeof window !== "undefined") {
+//     console.log(window);
+//   }
+//   console.log("Like Component");
+//   console.log("Follow Page");
+// //Button Click count Increase
+
   return (
     <div>
       <h1>Client Server Page</h1>
-      <h2>{count} </h2>
-      <button
-        onClick={handleClick}
-      className="bg-blue-400 border-2 border-black"
-      >Follow  
-       </button>
+    <Button/>
 
     </div>
 
