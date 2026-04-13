@@ -27,9 +27,11 @@ const handleClick=()=>{
   return (
     <div>
       <h1>Client Server Page</h1>
+      <h2>{count} </h2>
       <button
         onClick={handleClick}
-      >Follow  {count}  {String(console.log("running on server"))}
+      className="bg-blue-400 border-2 border-black"
+      >Follow  
        </button>
 
     </div>

@@ -1,8 +1,8 @@
 import { Suspense } from 'react';
-import Comments from '../../../components/Comments'
-import Like from '../../../components/Like'
-import Views from '../../../components/Views'
-import Loading from '../../../components/Loading';
+import Comments from '../../../_components/Comments'
+import Like from '../../../_components/Like'
+import Views from '../../../_components/Views'
+import Loading from '../../../_components/Loading';
 // Incremental Site Regeneration
 // export const revalidate = 5;
 
@@ -48,7 +48,7 @@ export default async function page({ params }) {
 
         <Suspense fallback={<Loading>Comments.....</Loading>}> <Comments /></Suspense>
 
-        <Suspense fallback={<Loading> Likes....</LoadingS>}><Like /></Suspense>
+        <Suspense fallback={<Loading> Likes....</Loading>}><Like /></Suspense>
       </div>
 
     </div>
