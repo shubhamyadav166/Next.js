@@ -3,7 +3,7 @@
 export default function Home() {
   return (
 <>
-<div>Home Page</div>
+<div className="w-full">Home Page</div>
 </>
   );
 }

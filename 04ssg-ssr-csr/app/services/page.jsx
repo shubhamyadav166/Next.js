@@ -1,9 +1,13 @@
-import {cookies} from 'next/headers'
+// import {cookies} from 'next/headers'
 //   // Force fully make page dynamic
 // export const dynamic="force-dynamic"
+// Force static at each method or for each condition
+// export const dynamic="force-static"
+// when error apply then it would show error when you will try to dynamicaly render
+// export const dynamic="error"
 
 
-export default async function page() {
+export default async function page({searchParams}) {
 //  const search=await searchParams
 //   console.log(search);
 
@@ -11,8 +15,8 @@ export default async function page() {
 
 // my Cookies also make page dynamic
 
- const mycookie=await cookies()
-console.log(mycookie);
+//  const mycookie=await cookies()
+// console.log(mycookie);
 
   console.log("This is service page");
   
