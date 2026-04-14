@@ -1,7 +1,9 @@
 'use client'
 
 export default function Home() {
-if(typeof window==="undefined"){
+if(typeof window!=="undefined"){
+
+  
   return <div>This is Server side rendering</div>
 }
 
