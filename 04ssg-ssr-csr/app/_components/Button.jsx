@@ -8,7 +8,7 @@ export default function Button() {
     
   return (
     <div>
-      <button onClick={(prev)=> setCount(prev=>prev+1)}> Button</button> 
+      <button onClick={()=> setCount((prev)=>prev+1)}> Button</button> 
       {count}
         </div>
   )

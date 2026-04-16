@@ -1,10 +1,10 @@
   async function page({params}){
    
   console.log(await params);
-  
+  const {likes}=await params
     
   return (
-    <div>Like Page</div>
+    <div>Like Page: {likes}</div>
   )
 }
 

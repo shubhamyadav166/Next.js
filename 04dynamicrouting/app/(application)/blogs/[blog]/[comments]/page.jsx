@@ -1,11 +1,11 @@
 
 
- async function Comment({params}) {
+async function page({params}) {
   console.log(await params);
-  
+  const {comments}=await params
   return (
-    <div>Comment Page {}</div>
+    <div>Comment Page:- {comments}</div>
   )
 }
 
-export default Comment
+export default page

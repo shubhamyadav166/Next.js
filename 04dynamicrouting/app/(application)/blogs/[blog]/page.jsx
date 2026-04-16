@@ -12,6 +12,8 @@ export async function generateMetadata({ params }) {
 
 export default async function page({ params }) {
   const { blog } = await params
+  console.log(blog);
+  
   let Test = /^\d+$/.test(blog)
    console.log(Test);
 
