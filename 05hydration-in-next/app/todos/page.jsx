@@ -3,12 +3,12 @@ import { Suspense } from "react";
 export default async function page() {
 const apiResponse=await fetch('https://procodrr.vercel.app/?sleep=4000')
 const res=await apiResponse.json()
-console.log(res);
+// console.log(res);
 
 
     const response = await fetch("https://jsonplaceholder.typicode.com/todos?_limit=5")
     const data = await response.json()
-    console.log(data);
+    // console.log(data);
 
     return (
         <div >
