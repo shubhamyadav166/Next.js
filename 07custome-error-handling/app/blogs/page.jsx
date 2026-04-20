@@ -40,6 +40,13 @@ export default function page() {
   },
 ]
 
+// const value=Math.random()
+// console.log(value);
+
+// if(value>0.5){
+//     throw new Error("This is the error page ")
+// }
+
   return (
     <div>
       {blogs.map((item)=>(

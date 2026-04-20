@@ -13,6 +13,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  // const value=Math.random()
+  // if(value>0.5){
+  //   throw Error("Somthing went Wrong Globally")
+  // }
+
   return (
     <html
       lang="en"
