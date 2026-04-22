@@ -1,5 +1,5 @@
 'use client'
-
+import style from './home.module.css'
 import { useState } from "react";
 
 export default function page() {
@@ -11,7 +11,7 @@ export default function page() {
       
       <div>
         {fruit.map((item)=>(
-          <p key={item}>{item}</p>
+          <p className={style.title} key={item}>{item}</p>
         ))}
       </div>
         <button onClick={()=>{

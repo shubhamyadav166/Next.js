@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import style from '../about/home.module.css'
 export default function page() {
 
     const blogs=[ 
@@ -50,7 +51,7 @@ export default function page() {
   return (
     <div>
       {blogs.map((item)=>(
-        <div key={item.id}>
+        <div className={style.title} key={item.id}>
           <Link href={`/blogs/${item.id}`}>{item.title}</Link>
         </div>
       ))}

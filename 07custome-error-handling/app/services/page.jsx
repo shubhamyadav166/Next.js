@@ -2,7 +2,7 @@
 
 export default function page() {
   return (
-    <div>Services Page</div>
+    <div className="title">Services Page</div>
   )
 }
 
